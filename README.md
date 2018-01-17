@@ -1,5 +1,5 @@
 # ion-pedometer
-Ionic Native Padometer demo
+Ionic Native Padometer demo (download ion-pedometer.apk)
 
 *NOTE* - this functionality/Pligin Only working on real Device, iOS have some extra features which is not available in android.
 
