@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Corner
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+
+  <ion-row text-center>
+    <ion-col>
+    </ion-col>
+    <ion-col>
+
+
+
+     <p class="count">{{stepCount}}</p>  
+
+     <br/>
+     <br/>
+
+     <button *ngIf="!start" ion-button outline round block icon-right color="secondary" (click)="fnGetPedoUpdate()">start  <ion-icon name="play"></ion-icon> </button>
+    <button *ngIf="start" ion-button outline round block icon-right color="danger" (click)="fnStopPedoUpdate()">stop  <ion-icon name="pause"></ion-icon> </button>
+
+    </ion-col>
+    <ion-col>
+    </ion-col>
+  </ion-row>
+
+  
+  	<ion-fab  middle>
+		
+	</ion-fab>
+
+</ion-content>
